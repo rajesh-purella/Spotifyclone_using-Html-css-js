@@ -1,0 +1,112 @@
+body
+{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+}
+#img1
+{
+    width: 20px;
+    height: 60px;
+    padding: 0 8px;;
+}
+nav
+{
+    font-family: cursive;
+}
+nav ul{
+    display:flex;
+    list-style-type: none;
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.container
+{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    margin: 23px auto;
+    width: 80%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('girl-with-black-headphone-a09f6yk2y3h937yo.jpg');
+    background-repeat: no-repeat;
+}
+.brand
+{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.bottom
+{
+    position: sticky;
+    height: 130px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+.icons
+{
+    margin: 14px 0px;
+}
+.icons i{
+    cursor: pointer;    
+}
+#mybar
+{   
+    text-align: center;
+    cursor: pointer;
+}
+.songItem
+{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    color:black;
+    border-radius: 25px;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.songItem img{
+    width: 43px;
+    margin: 0px 5px ;
+    border-radius: 35px;
+}
+.timestamp
+{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 70px;
+}
+.songinfo
+{
+    display: flex;
+    color: white;
+    position: absolute;
+    left: 0;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+
